@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahlkampfstrategie Göttingen 2026</title>
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #f4f4f4;
+            --text-color: #333;
+            --light-text-color: #ffffff;
+            --container-bg: #ffffff;
+            --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: var(--container-bg);
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .strategies-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .strategies-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .strategy-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .strategy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+
+        .strategy-card h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .strategy-card p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .strategy-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--light-text-color);
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #004494;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Sozial-ökologische Wahlkampfstrategie</h1>
+            <p>Ein progressiver Plan für die Oberbürgermeisterwahl in Göttingen 2026</p>
+        </div>
+
+        <p>Dieses Repository dokumentiert einen umfassenden Vorschlag für eine sozial-ökologische Wahlkampfstrategie. Ziel ist es, Göttingen zu einer noch lebenswerteren, nachhaltigeren und sozial gerechteren Stadt zu machen. Wählen Sie eine der beiden Versionen, um die Details zu erkunden.</p>
+
+        <div class="strategies-grid">
+            <div class="strategy-card">
+                <div class="icon">📄</div>
+                <h2>Kurzfassung</h2>
+                <p>Die wichtigsten Kernthemen, Ziele und Botschaften auf einen Blick. Ideal für einen schnellen Überblick über die strategische Ausrichtung.</p>
+                <a href="Strategie OB Göttingen 2026_kurz.md" class="button">Strategie-Kurzfassung lesen</a>
+            </div>
+
+            <div class="strategy-card">
+                 <div class="icon">📑</div>
+                <h2>Detailstrategie</h2>
+                <p>Die vollständige Ausarbeitung mit Analysen zu Kandidaten, Wählergruppen, Mediaplanung und konkreten Maßnahmen.</p>
+                <a href="Strategie-detailiert.md" class="button">Detaillierte Strategie lesen</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Ein Projekt auf GitHub. <a href="https://github.com/programmiererphp/Strategie-Oberb-rgermeisterwahl-Gottingen-2026" target="_blank">Zum Repository</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
