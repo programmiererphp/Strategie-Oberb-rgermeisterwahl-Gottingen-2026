@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision & Strategie 2026 für Göttingen</title>
+    <title>Strategie 2026 Kompakt: Plan für Göttingen</title>
     <style>
         :root {
             --primary-color: #0056b3;
@@ -13,7 +13,6 @@
             --heading-color: #004a99;
             --border-color: #e9ecef;
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.7;
@@ -22,7 +21,6 @@
             margin: 0;
             padding: 0;
         }
-
         .container {
             max-width: 800px;
             margin: 1rem auto;
@@ -31,80 +29,47 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 6px;
-        }
-
-        h1, h2, h3 {
+        h1, h2 {
             color: var(--heading-color);
             border-bottom: 2px solid var(--border-color);
             padding-bottom: 0.5rem;
-            margin-top: 2.5rem;
+            margin-top: 2rem;
             margin-bottom: 1rem;
         }
-
         h1 {
             font-size: 2.2rem;
             text-align: center;
-            border-bottom: 3px solid var(--primary-color);
+            border-bottom-color: var(--primary-color);
         }
-
         h2 {
             font-size: 1.8rem;
         }
-
-        h3 {
-            font-size: 1.4rem;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
+        p { margin-bottom: 1rem; }
         ul {
             padding-left: 20px;
-            list-style-type: '✔ ';
+            list-style-type: '🚀';
         }
-
         li {
-            margin-bottom: 1.5rem;
             padding-left: 10px;
+            margin-bottom: 1rem;
+            font-size: 1.1em;
         }
-
-        strong {
-            color: #212529;
-        }
-        
         blockquote {
             border-left: 4px solid var(--primary-color);
             padding: 0.5rem 1rem;
-            margin: 1.5rem 0;
+            margin: 1.5rem auto;
             font-style: italic;
             color: #555;
             background-color: var(--background-color);
             border-radius: 4px;
+            max-width: 90%;
+            text-align: center;
         }
-
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: #dee2e6;
-            margin: 3rem 0;
-        }
-        
         a {
             color: var(--primary-color);
             text-decoration: none;
         }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
+        a:hover { text-decoration: underline; }
         .back-link {
             display: block;
             margin-bottom: 2rem;
@@ -112,109 +77,55 @@
             font-size: 1.1rem;
             font-weight: bold;
         }
-
-        .prompt {
-            display: block;
-            background-color: #e9ecef;
-            padding: 0.8rem;
-            border-radius: 4px;
-            font-family: monospace;
-            font-size: 0.9rem;
-            color: #212529;
-            margin-top: 0.5rem;
-            word-wrap: break-word;
-            white-space: pre-wrap;
-        }
-        
-        /* === Responsive Design === */
-        @media (max-width: 840px) {
-            .container {
-                margin: 1rem;
-                padding: 1.5rem;
-            }
-        }
+        /* Responsive */
         @media (max-width: 600px) {
-            body {
-                line-height: 1.6;
-            }
-            .container {
-                margin: 0;
-                padding: 1rem;
-                border-radius: 0;
-                box-shadow: none;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-            h2 {
-                font-size: 1.5rem;
-            }
-            h3 {
-                font-size: 1.2rem;
-            }
+            .container { margin: 0; padding: 1rem; border-radius: 0; box-shadow: none; }
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.5rem; }
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-
         <a href="index.html" class="back-link">← Zurück zur Übersicht</a>
     
-        <h1>Unsere Vision für Göttingen 2026</h1>
-        <p style="text-align: center; font-size: 1.1em;"><em>Göttingen wird zur Vorreiterin für eine sozial-ökologische Zukunft, in der Klimaschutz, Innovation und Mitmenschlichkeit Hand in Hand gehen. Dies ist unser konkreter Plan, um Politik für die Menschen zu machen und unsere Stadt gemeinsam zu gestalten.</em></p>
+        <h1>Göttingen 2026: Unser Plan zum Sieg</h1>
 
-        <hr>
+        <section id="vision">
+            <h2>Unsere Vision</h2>
+            <blockquote>
+                Wir machen Göttingen zur Vorreiterin für eine lebenswerte Zukunft, in der Klimaschutz und soziale Gerechtigkeit den Alltag aller Menschen verbessern.
+            </blockquote>
+        </section>
 
         <section id="kernthemen">
-            <h2>Die 5 Säulen unserer Strategie</h2>
-            
+            <h2>Unsere 4 Missionen für Göttingen</h2>
             <ul>
-                <li><strong>Eine Stadt, die zuhört: Echte Bürgerbeteiligung durch einen digitalen Bürgerhaushalt.</strong>
-                    <br>Wir führen einen innovativen Bürgerhaushalt über eine Online-Plattform ein. Alle Göttingerinnen und Göttinger können damit direkt vorschlagen und abstimmen, wofür ein Teil des städtischen Budgets verwendet wird – ob für einen neuen Spielplatz, mehr Grünflächen oder Kulturprojekte.
-                    <br><em>Warum das zieht:</em> Es ist das stärkste Signal gegen Politikverdrossenheit. Es gibt den Menschen reale Entscheidungsmacht, schafft maximale Transparenz und sorgt dafür, dass Projekte entstehen, die wirklich gebraucht werden. Das ist gelebte, moderne Demokratie.
-                    <code class="prompt">[Eine dynamische Infografik im Web-Design. Im Zentrum steht der Schriftzug "Göttingens Bürgerhaushalt". Drumherum sind Icons für 'Vorschlagen', 'Diskutieren' und 'Abstimmen' angeordnet. Diverse Menschen schauen auf ihre Smartphones und Tablets, auf denen sie an der Abstimmung teilnehmen. Stil: Heller, freundlicher Flat-Design-Vektorstil.]</code>
+                <li>
+                    <strong>Demokratie leben & Gemeinschaft stärken:</strong> Mit einem digitalen <strong>Bürgerhaushalt</strong> geben wir Ihnen echte Entscheidungsmacht. Mit <strong>Nachbarschaftszentren</strong> und <strong>Gemeinschaftsgärten</strong> schaffen wir Orte des Zusammenhalts.
                 </li>
-
-                <li><strong>Eine Stadt, die zusammenhält: Nachbarschaftszentren und Gemeinschaftsgärten für alle.</strong>
-                    <br>Wir schaffen in allen Stadtteilen von der Stadt geförderte Nachbarschaftszentren als offene Treffpunkte. Ergänzend errichten wir blühende Gemeinschaftsgärten, in denen Anwohner gemeinsam gärtnern, ernten und sich austauschen können.
-                    <br><em>Warum das zieht:</em> Diese Orte sind das soziale Herz unserer Stadtteile. Sie bekämpfen Einsamkeit, stärken den Zusammenhalt über Generationen hinweg, verschönern das Stadtbild und fördern ein Bewusstsein für Natur und gesunde Ernährung.
-                    <code class="prompt">[Ein lebendiger Gemeinschaftsgarten in einer Göttinger Nachbarschaft. Menschen verschiedenen Alters pflanzen, gießen und ernten gemeinsam Gemüse. Im Hintergrund ein modernes Nachbarschaftszentrum mit offenen Türen. Die Atmosphäre ist sonnig, gemeinschaftlich und fröhlich. Stil: Warme, detailreiche Illustration.]</code>
+                 <li>
+                    <strong>Alltag erleichtern & Chancen schaffen:</strong> Wir investieren in <strong>Sauberkeit und Sicherheit</strong> mit mehr Bänken und Toiletten. Mit <strong>Gemeinwohl-Jobs</strong> geben wir Menschen eine sinnvolle Aufgabe.
                 </li>
-
-                <li><strong>Eine Stadt, die für alle da ist: Sicherheit, Sauberkeit und Lebensqualität im Alltag.</strong>
-                    <br>Wir starten ein Sofortprogramm für die alltäglichen Bedürfnisse: Deutlich mehr Sitzbänke in allen Vierteln, ein Netz moderner und sauberer öffentlicher Toiletten sowie eine bessere Beleuchtung von Wegen und Plätzen für ein höheres Sicherheitsgefühl.
-                    <br><em>Warum das zieht:</em> Es zeigt, dass wir die kleinen, aber wichtigen Dinge ernst nehmen. Diese konkreten Verbesserungen erhöhen die Lebensqualität für alle, insbesondere für Familien, Senioren und Menschen mit eingeschränkter Mobilität, und machen die Stadt sofort spürbar freundlicher.
-                    <code class="prompt">[Eine Collage im Comic-Stil, die drei Szenen zeigt: Ein älteres Paar, das glücklich auf einer neuen Parkbank in Göttingen sitzt. Eine junge Familie, die eine saubere, moderne öffentliche Toilette nutzt. Ein gut beleuchteter Parkweg bei Nacht, auf dem eine Frau sicher nach Hause geht. Der Slogan darüber: "Göttingen kümmert sich."]</code>
-                </li>
-
-                <li><strong>Eine Stadt, die Chancen schafft: Gemeinwohl-Jobs und soziale Gerechtigkeit.</strong>
-                    <br>Wir schaffen städtische Gemeinwohl-Jobs für Erwerbslose mit sinnvollen, einfachen Tätigkeiten. Dazu gehören die Unterstützung bei Stadtfesten, Hilfe für Senioren bei Einkäufen und Spaziergängen, die Pflege von Gemeinschaftsgärten, Ticketverkäufe für Kultureinrichtungen oder die Funktion als Lesepaten in Schulen.
-                    <br><em>Warum das zieht:</em> Es gibt Menschen nicht nur eine Beschäftigung, sondern eine wertvolle Aufgabe, die der gesamten Gemeinschaft dient. Dieses Programm verbindet soziale Unterstützung mit sichtbaren Verbesserungen im Stadtleben und würdigt den Beitrag jedes Einzelnen.
-                    <code class="prompt">[Ein freundlicher Mann in einer Weste mit dem Logo "Göttingen für Alle" hilft einer Seniorin mit ihren Einkaufstaschen. Sie unterhalten sich und lächeln. Im Hintergrund ist ein Wochenmarkt zu sehen. Stil: Herzlicher, realistischer Zeichenstil mit Fokus auf die menschliche Interaktion.]</code>
-                </li>
-
-                <li><strong>Eine Stadt, die Zukunft gestaltet: Nachhaltige Mobilität und bezahlbare Energie.</strong>
-                    <br>Wir setzen die Mobilitäts- und Energiewende konsequent um: Ein besserer und günstigerer ÖPNV, sichere Radwege, die Förderung von energetischen Sanierungen und der Ausbau von Bürgerenergie-Projekten.
-                    <br><em>Warum das zieht:</em> Klimaschutz wird zum direkten Vorteil für jeden Geldbeutel. Geringere Kosten für Bus, Bahn und Heizung entlasten die Haushalte, während die Stadt sauberer, leiser und unabhängiger von externen Energiekonzernen wird.
-                    <code class="prompt">[Eine geteilte Szene: Links eine Familie, die auf einem sicheren Radweg an einem modernen, leisen Elektrobus vorbeifährt. Rechts ein Hausbesitzer, der stolz auf seine neue Solaranlage auf dem Dach zeigt, während eine Grafik sinkende Energiekosten symbolisiert. Stil: Klarer, informativer und optimistischer Illustrationsstil.]</code>
+                <li>
+                    <strong>Klimaschutz, der sich lohnt:</strong> Wir sorgen für <strong>bezahlbare Mobilität und Energie</strong>. Das schont die Umwelt und den Geldbeutel.
                 </li>
             </ul>
         </section>
-        
-        <hr>
 
-        <section id="kandidatenprofil">
-            <h2>Das Profil für die Spitze</h2>
-            <p>Für diese Vision braucht es eine Persönlichkeit, die Menschen begeistert und zusammenführt:</p>
-            <ul>
-                <li><strong>Visionär und pragmatisch zugleich:</strong> Kann eine begeisternde Zukunft für Göttingen entwerfen und gleichzeitig die konkreten Schritte zur Umsetzung planen und managen.</li>
-                <li><strong>Empathisch und entschlossen:</strong> Hört den Sorgen und Bedürfnissen der Bürger wirklich zu und hat den Mut, die notwendigen Entscheidungen für das Gemeinwohl zu treffen.</li>
-                <li><strong>Integre Brückenbauerin / Integrer Brückenbauer:</strong> Kann Gräben zwischen Politik, Verwaltung und Bürgerschaft überwinden und eine neue Kultur der Zusammenarbeit schaffen.</li>
-            </ul>
+        <section id="umsetzung-kurz">
+            <h2>Unser Weg zum Erfolg</h2>
+            <p>
+                Wir gewinnen diese Wahl mit einer überzeugenden Persönlichkeit an der Spitze, die Menschen mitnimmt. Wir führen einen modernen Wahlkampf, der den direkten Dialog mit den Bürgerinnen und Bürgern in den Mittelpunkt stellt – an der Haustür, auf den Märkten und digital.
+            </p>
         </section>
 
+        <section id="fazit">
+            <h2>Unser Appell</h2>
+            <p style="font-size: 1.1em; text-align: center;">
+                Dieser Plan ist eine Einladung. An alle, die an eine bessere, nachhaltigere und menschlichere Zukunft für Göttingen glauben. Lassen Sie uns gemeinsam dafür kämpfen!
+            </p>
+        </section>
     </div>
-
 </body>
 </html>
